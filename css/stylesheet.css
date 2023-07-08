@@ -479,3 +479,99 @@ body {
   color: #808080;
   font-size: 14px;
 }
+
+.project {
+  display: flex;
+  margin-top: 20px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.project-details {
+  padding: 20px;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-family: 'Outfit', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-info {
+  display: flex;
+  align-items: center;
+  color: #cbcbcb;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.project-part {
+  margin-right: 10px;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+}
+
+.project-divider {
+  margin: 10px 10px;
+}
+
+.project-overview {
+  font-family: 'DM Sans', sans-serif;
+  color: #cbcbcb;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 30px;
+  margin-left: -10px;
+}
+
+.view-case-study-btn,
+.view-brief-btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Output', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.view-case-study-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
+.view-brief-btn {
+  background-color: #498cf7;
+  color: #ffffff;
+}
